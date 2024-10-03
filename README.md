@@ -41,8 +41,8 @@
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Screen rabbit](https://github.com/Svetulkaash/rabbit/blob/main/Screen%20rabbit.png)`
+
+![Screen rabbit](https://github.com/Svetulkaash/rabbit/blob/main/Screen%20rabbit.png)
 
 
 ---
@@ -75,13 +75,12 @@ $ pip install pika
 ....
 ```
 
-`При необходимости прикрепитe сюда скриншоты
 ![Procumer](https://github.com/Svetulkaash/rabbit/blob/main/procumer.png)
 ![Rabbit queue hello](https://github.com/Svetulkaash/rabbit/blob/main/hello.png)
 ![Consumer](https://github.com/Svetulkaash/rabbit/blob/main/consumer.png)
 ![Reports consumer](https://github.com/Svetulkaash/rabbit/blob/main/reports%20consumer.png)
 ![Queues](https://github.com/Svetulkaash/rabbit/blob/main/Queues.png)
-![QueueBob](https://github.com/Svetulkaash/rabbit/blob/main/QueueBob.png)`
+![QueueBob](https://github.com/Svetulkaash/rabbit/blob/main/QueueBob.png)
 
 
 ---
