@@ -85,7 +85,38 @@ $ pip install pika
 
 ---
 
-### Задание 3
+
+### Задание 3. Подготовка HA кластера
+
+`Используя Vagrant или VirtualBox, создайте вторую виртуальную машину и установите RabbitMQ. Добавьте в файл hosts название и IP-адрес каждой машины, чтобы машины могли видеть друг друга по имени.
+
+Пример содержимого hosts файла:
+
+$ cat /etc/hosts
+
+192.168.0.10 rmq01
+
+192.168.0.11 rmq02
+
+После этого ваши машины могут пинговаться по имени.
+Затем объедините две машины в кластер и создайте политику ha-all на все очереди.
+В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
+`
+![web](https://github.com/Svetulkaash/rb/blob/main/Quertes%20cluster.png)
+![policy](https://github.com/Svetulkaash/rb/blob/main/ha%20all.png)
+`Также приложите вывод команды с двух нод:`
+
+![node1](https://github.com/Svetulkaash/rb/blob/main/cluster%20node1.png)
+![node2](https://github.com/Svetulkaash/rb/blob/main/cluster%20node2.png)
+`Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
+
+$ rabbitmqadmin get queue='hello'
+
+После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
+`
+![cons node2](https://github.com/Svetulkaash/rb/blob/main/node2.png)
+![proc nod2](https://github.com/Svetulkaash/rb/blob/main/node2%20procur.png)
+![cluster](https://github.com/Svetulkaash/rb/blob/main/cluster%20node2proc.png)
 
 `Приведите ответ в свободной форме........`
 
