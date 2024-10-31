@@ -102,8 +102,11 @@ $ cat /etc/hosts
 Затем объедините две машины в кластер и создайте политику ha-all на все очереди.
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
 `
+
 ![web](https://github.com/Svetulkaash/rb/blob/main/Quertes%20cluster.png)
 ![policy](https://github.com/Svetulkaash/rb/blob/main/ha%20all.png)
+
+
 `Также приложите вывод команды с двух нод:`
 
 ![node1](https://github.com/Svetulkaash/rb/blob/main/cluster%20node1.png)
